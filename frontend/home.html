@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishrak</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css"
+    />
+</head>
+<body>
+    <div class="navbar bg-base-100">
+            <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Item 1</a></li>
+                <li>
+                    <a>Parent</a>
+                    <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                    </ul>
+                </li>
+                <li><a>Item 3</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">Ishrak Mahamud</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a href='http://127.0.0.1:8000/admin/login/?next=/admin/' target="_blank">Login</a></li>
+                
+            </ul>
+            </div>
+            <div class="navbar-end">
+            
+            </div>
+    </div>
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div class="lg:pr-10">
+          <a href="/" aria-label="Go Home" title="Logo" class="inline-block mb-5">
+            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
+              <svg class="w-10 h-10 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+              </svg>
+            </div>
+          </a>
+          <h5 class="mb-4 text-4xl font-extrabold leading-none">
+            Ishrak Mahammud<br class="hidden md:block" />
+          </h5>
+          <p class="mb-6 text-white">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem totam rem aperiam, eaque
+            ipsa quae explicabo.
+          </p>
+          <hr class="mb-5 border-white" />
+          <div class="flex items-center space-x-4">
+            <a href="/" class="text-white transition-colors duration-300 hover:text-deep-purple-accent-400">
+              <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                <path
+                  d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
+                ></path>
+              </svg>
+            </a>
+            <a href="/" class="text-white transition-colors duration-300 hover:text-deep-purple-accent-400">
+              <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
+                <circle cx="15" cy="15" r="4"></circle>
+                <path
+                  d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10   C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1   c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z"
+                ></path>
+              </svg>
+            </a>
+            <a href="/" class="text-white transition-colors duration-300 hover:text-deep-purple-accent-400">
+              <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                <path
+                  d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
+                ></path>
+              </svg>
+            </a>
+            <a href="/" class="text-white transition-colors duration-300 hover:text-deep-purple-accent-400">
+              <svg viewBox="0 0 24 24" fill="currentColor" class="h-6">
+                <path
+                  d="M23.8,7.2c0,0-0.2-1.7-1-2.4c-0.9-1-1.9-1-2.4-1C17,3.6,12,3.6,12,3.6h0c0,0-5,0-8.4,0.2 c-0.5,0.1-1.5,0.1-2.4,1c-0.7,0.7-1,2.4-1,2.4S0,9.1,0,11.1v1.8c0,1.9,0.2,3.9,0.2,3.9s0.2,1.7,1,2.4c0.9,1,2.1,0.9,2.6,1 c1.9,0.2,8.2,0.2,8.2,0.2s5,0,8.4-0.3c0.5-0.1,1.5-0.1,2.4-1c0.7-0.7,1-2.4,1-2.4s0.2-1.9,0.2-3.9v-1.8C24,9.1,23.8,7.2,23.8,7.2z M9.5,15.1l0-6.7l6.5,3.4L9.5,15.1z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+        </div>
+      </div>
+    </div>
+   
+      <div class="w-full bg-center bg-cover h-[38rem]" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+          <div class="flex items-center justify-center w-full h-full bg-gray-900/40">
+              <div class="text-center">
+                  <h1 class="text-3xl font-semibold text-white lg:text-4xl">Well Come To<span class="text-red-600"> Ishrak</span>Blog</h1>
+                  <button class="w-full px-5 py-2 mt-4 text-sm font-medium text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">See More</button>
+              </div>
+          </div>
+      </div>
+ 
+    <section class=" py-12 text-white sm:py-16 lg:py-20">
+        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-md text-center">
+            <h2 class="font-serif text-2xl font-bold sm:text-3xl">All Item</h2>
+            <p class="mt-4 text-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus faucibus massa dignissim tempus.</p>
+          </div>
+          <div role="tablist" class="tabs tabs-bordered w-60 mx-auto">
+            <a role="tab" class="tab tab-active" onclick="filterItems('All')">All</a>
+            <a role="tab" class="tab tab-active" onclick="filterItems('Movie')">Movie</a>
+            <a role="tab" class="tab tab-active" onclick="filterItems('Books')">Books</a>
+            <a role="tab" class="tab tab-active" onclick="filterItems('Magazine')">Magazine</a>
+          </div>
+         
+        </div>
+    </section>
+    <div class="container mt-4 mx-auto px-96">
+      <h2 class='text-white'>Product Search</h2>
+      <form id="searchForm">
+        <div class="form-group">
+          <input
+            type="text"
+            class="placeholder-white px-6 py-2 text-gray-700 placeholder-gray-500 bg-white outline-none dark:bg-gray-800 dark:placeholder-gray-400 focus:placeholder-transparent dark:focus:placeholder-transparent"
+            id="searchTerm"
+            name="searchTerm"
+            placeholder="Enter search term"
+          />
+        </div>
+        <button type="submit" class="px-4 py-3 text-sm font-medium tracking-wider text-gray-100 uppercase transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:bg-gray-600 focus:outline-none">Search</button>
+      </form>
+  
+      <div id="searchResults" class="mt-4">
+        <!-- Search results will be displayed here -->
+      </div>
+    </div>
+    <section class="flex flex-col items-center bg-black">
+      
+      <div id="data-container" class="mt-10 grid max-w-md grid-cols-1 gap-6 px-2 sm:max-w-lg sm:px-20 md:max-w-screen-xl md:grid-cols-2 md:px-10 lg:grid-cols-3 lg:gap-8">
+       
+      </div>
+    </section>
+    <section class="bg-white dark:bg-gray-900">
+      <div class="container px-6 py-10 mx-auto">
+          <div class="text-center">
+              <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">From the blog</h1>
+  
+              <p class="max-w-lg mx-auto mt-4 text-gray-500">
+                  Salami mustard spice tea fridge authentic Chinese food dish salt tasty liquor. Sweet savory foodtruck
+                  pie.
+              </p>
+          </div>
+  
+          <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 xl:grid-cols-3">
+              <div>
+                  <div class="relative">
+                      <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwuxbcDP_ZjRW2AozGCsJcATyjajuBngNZup6SMUGGhxzYC-mPB-dkyhHII8mWR82oVCo&usqp=CAU" alt="">
+  
+                      <div class="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900 ">
+                          <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+  
+                          <div class="mx-4">
+                              <h1 class="text-sm text-gray-700 dark:text-gray-200">Tom Hank</h1>
+                              <p class="text-sm text-gray-500 dark:text-gray-400">Creative Director</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+                      What do you want to know about UI
+                  </h1>
+  
+                  <hr class="w-32 my-6 text-blue-500">
+  
+                  <p class="text-sm text-gray-500 dark:text-gray-400">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+                      praesentium, alias nam? Tempore
+                  </p>
+  
+                  <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+              </div>
+  
+              <div>
+                  <div class="relative">
+                      <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5qr8XGhG4JCgLcPhtqnt_b_PkpvSCzFGmSQ&usqp=CAU" alt="">
+  
+                      <div class="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900 ">
+                          <img class="object-cover object-center w-10 h-10 rounded-full"src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"alt="">
+  
+                          <div class="mx-4">
+                              <h1 class="text-sm text-gray-700 dark:text-gray-200">arthur melo</h1>
+                              <p class="text-sm text-gray-500 dark:text-gray-400">Creative Director</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+                      All the features you want to know
+                  </h1>
+  
+                  <hr class="w-32 my-6 text-blue-500">
+  
+                  <p class="text-sm text-gray-500 dark:text-gray-400">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+                      praesentium, alias nam? Tempore
+                  </p>
+  
+                  <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+              </div>
+  
+              <div>
+                  <div class="relative">
+                      <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://img.etimg.com/thumb/width-640,height-480,imgsize-301240,resizemode-75,msid-105018310/magazines/panache/kamal-haasans-movie-with-mani-ratnam-is-now-titled-thug-life/the-movies-production-house-raaj-kamal-films-international-announced-the-title-of-the-highly-anticipated-action-film-featuring-veteran-actor-kamal-haasan-and-master-filmmaker-mani-ratnam-.jpg" alt="">
+  
+                      <div class="absolute bottom-0 flex p-3 bg-white dark:bg-gray-900 ">
+                          <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+  
+                          <div class="mx-4">
+                              <h1 class="text-sm text-gray-700 dark:text-gray-200">Amelia. Anderson</h1>
+                              <p class="text-sm text-gray-500 dark:text-gray-400">Lead Developer</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <h1 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">
+                      Which services you get
+                  </h1>
+  
+                  <hr class="w-32 my-6 text-blue-500">
+  
+                  <p class="text-sm text-gray-500 dark:text-gray-400">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit dolorum amet dolores
+                      praesentium, alias nam? Tempore
+                  </p>
+  
+                  <a href="#" class="inline-block mt-4 text-blue-500 underline hover:text-blue-400">Read more</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <div class="text-center">
+            <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Get in touch</h1>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-400">Our friendly team is always here to chat.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
+            <div class="flex flex-col items-center justify-center text-center">
+                <span class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                </span>
+
+                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                <p class="mt-2 text-blue-500 dark:text-blue-400">ishrakmahammud@gmail.com</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center text-center">
+                <span class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Office</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
+                <p class="mt-2 text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center text-center">
+                <span class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Phone</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                <p class="mt-2 text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer class=" mt-20">
+        <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+      
+          <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+            <li>
+              <a class="text-white transition hover:text-gray-700/75" href="/"> About </a>
+            </li>
+      
+            <li>
+              <a class="text-white transition hover:text-gray-700/75" href="/"> Careers </a>
+            </li>
+      
+            <li>
+              <a class="text-white transition hover:text-gray-700/75" href="/"> History </a>
+            </li>
+      
+            <li>
+              <a class="text-white transition hover:text-gray-700/75" href="/"> Services </a>
+            </li>
+      
+            <li>
+              <a class="text-white transition hover:text-gray-700/75" href="/"> Projects </a>
+            </li>
+      
+            <li>
+              <a class="text-white transition hover:text-gray-700/75" href="/"> Blog </a>
+            </li>
+          </ul>
+      
+          <ul class="mt-12 flex justify-center gap-6 md:gap-8">
+            <li>
+              <a
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+                class="text-white transition hover:text-gray-700/75"
+              >
+                <span class="sr-only">Facebook</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill-rule="evenodd"
+                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </li>
+      
+            <li>
+              <a
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+                class="text-white transition hover:text-gray-700/75"
+              >
+                <span class="sr-only">Instagram</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </li>
+      
+            <li>
+              <a
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+                class="text-white transition hover:text-gray-700/75"
+              >
+                <span class="sr-only">Twitter</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                  />
+                </svg>
+              </a>
+            </li>
+      
+            <li>
+              <a
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+                class="text-white transition hover:text-gray-700/75"
+              >
+                <span class="sr-only">GitHub</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </li>
+      
+            <li>
+              <a
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+                class="text-white transition hover:text-gray-700/75"
+              >
+                <span class="sr-only">Dribbble</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    <script>
+      let allItemsData; // Store all items data globally
+    
+      async function fetchData() {
+        try {
+          const response = await fetch("http://127.0.0.1:8000/api/items/");
+          allItemsData = await response.json();
+    
+          renderItems(allItemsData);
+        } catch (error) {
+          console.error("Error fetching data:", error);
+        }
+      }
+    
+      function renderItems(data) {
+        const dataContainer = document.getElementById("data-container");
+        dataContainer.innerHTML = ""; // Clear previous data
+    
+        data.forEach((item) => {
+          const imageUrl = "http://127.0.0.1:8000" + item.image;
+          console.log("Image URL:", imageUrl);
+    
+          const itemDiv = document.createElement("div");
+          itemDiv.innerHTML = `
+          <article class="mb-4 overflow-hidden rounded-xl border text-gray-700 shadow-md duration-500 ease-in-out hover:shadow-xl">
+            <div class="">
+              <img src="${imageUrl}" alt="" class="" />
+            </div>
+      
+            <div class="p-4">
+              <div class="pb-6">
+                <a href="#" class="text-2xl text-white hover:text-green-600 font-bold duration-500 ease-in-out">${item.name}</a>
+              </div>
+      
+              <ul class="m-0 flex list-none items-center justify-between px-0 pb-0">
+                
+      
+                <li class="text-left">
+                  <span class="text-sm text-white">Rating</span>
+                  <ul class="m-0 flex items-center p-0 font-medium">
+                    <li class="inline text-yellow-500">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </li>
+                    <li class="inline text-yellow-500">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </li>
+                    <li class="inline text-yellow-500">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </li>
+                    <li class="inline text-yellow-500">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </li>
+                    <li class="inline text-yellow-500">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                      </svg>
+                    </li>
+                    <li class="ml-2 inline text-white">5.0(30)</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </article>
+                    `;
+          dataContainer.appendChild(itemDiv);
+        });
+      }
+    
+      function filterItems(category) {
+        if (category === "All") {
+          renderItems(allItemsData); // Show all items
+        } else {
+          const filteredData = allItemsData.filter(item => item.category === category);
+          renderItems(filteredData);
+        }
+      }
+    
+      fetchData();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      // Handle form submission
+      $("#searchForm").submit(function (event) {
+        event.preventDefault();
+        var searchTerm = $("#searchTerm").val().trim();
+
+        // Make GET request to the Django API
+        axios
+          .get("http://127.0.0.1:8000/api/items/search/", {
+            params: {
+              search: searchTerm,
+            },
+          })
+          .then(function (response) {
+            displaySearchResults(response.data);
+          })
+          .catch(function (error) {
+            console.error("Error fetching search results:", error);
+          });
+      });
+
+      // Display search results in the UI
+      function displaySearchResults(results) {
+        var searchResultsDiv = $("#searchResults");
+        searchResultsDiv.empty();
+
+        if (results.length === 0) {
+          searchResultsDiv.append("<p>No results found.</p>");
+        } else {
+          var resultList = $('<ul class="list-group"></ul>');
+          results.forEach(function (result) {
+            resultList.append(
+              '<li class="list-group-item text-white">' + result.name + "</li>"
+            );
+          });
+          searchResultsDiv.append(resultList);
+        }
+      }
+    </script>  
+</body>
+</html>
